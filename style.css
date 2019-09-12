@@ -1,0 +1,28 @@
+body{
+	background-image: url("windows.jpg");
+}
+.socialicons{
+	position: relative;
+	height: 200px;
+}
+.github{
+	float: right;
+	margin: 10px;
+	bottom: 0;
+}
+.gmail{
+	float: right;
+	margin: 10px;
+}
+.linkedin{
+	float: right;
+	margin: 10px;
+}
+.startbar{
+   position:absolute;
+   left: 0px;
+   bottom:0;
+   width:100%;
+   height:45px;
+   background:#6c6c6c;
+}
