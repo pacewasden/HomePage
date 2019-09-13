@@ -19,10 +19,17 @@ body{
 	margin: 10px;
 }
 .startbar{
-   position:absolute;
+	border:1px solid;
+   position: absolute;
    left: 0px;
-   bottom:0;
+   bottom:0px;
    width:100%;
    height:45px;
-   background:#6c6c6c;
+   background:#B8B8B8;
+}
+.startbutton{
+padding: 6px;
+}
+.clock{
+float: right;
 }
