@@ -19,17 +19,35 @@ body{
 	margin: 10px;
 }
 .startbar{
-	border:1px solid;
-   position: absolute;
-   left: 0px;
-   bottom:0px;
-   width:100%;
-   height:45px;
-   background:#B8B8B8;
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background:#B8B8B8;
 }
 .startbutton{
-padding: 6px;
+	height: 45px;
+	width: 120px;
+	float: left;
+	padding: 4px;
+	margin-left: 1px;
 }
-.clock{
-float: right;
+.clockbox{
+    position: relative;
+    float: right;
+    display: inline-block; /* Make the width of box same as image */
+    padding: 4px;
+}
+.clockbox .text{
+	position: absolute;
+   	z-index: 999;
+   	padding: 3px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:-23%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 80%; /* Set the width of the positioned div */
+    font-size: 12px;
 }

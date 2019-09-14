@@ -4,7 +4,7 @@
 	<title>Pace Wasden</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="startTime()">
 	<div class="topfolder">
 		<a href="#"><img src="foldericon.png" height="100" width="100"></a>
 	</div>	
@@ -40,12 +40,18 @@
 			<a href="https://www.linkedin.com/in/pace-wasden-a23a6642/"><img src="linkedin.png" height="100" width="100"></a>
 		</div>
 	</div>
+
 	<div class="startbar">
 		<div class="startbutton">
-			<a href="#"><img src="startbutton.png" height="35" width="100"></a>
-			<img class="clock" src="clock.png" height="35" width="120">
+			<a href="#"><img src="startbutton.png" height="35" width="105"></a>
 		</div>
-
+   		 <div class="clockbox">
+       	 	<img src="clock.png" alt="Flying Kites" height="35" width="110">
+        	<div class="text">
+            	<h1 id="time"></h1>
+        	</div>
+    	</div>
 	</div>
+	<script type="text/javascript" src="jss/javascript.js"></script>
 </body>
 </html>
